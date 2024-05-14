@@ -10,6 +10,8 @@
 }
 * {
   scroll-behavior: smooth !important;
+  margin:0px;
+  padding:0px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -389,4 +391,14 @@ body {
 }
 .block-link{
   text-decoration: none;
+}
+.wrapper_cars{
+  display:flex;
+  gap:3px;
+}
+
+@media screen and (max-width:780px) {
+  .wrapper_cars{
+    flex-direction: column;
+  }
 }
