@@ -387,3 +387,6 @@ body {
 .hide {
   display: none;
 }
+.block-link{
+  text-decoration: none;
+}
